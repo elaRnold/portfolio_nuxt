@@ -1,7 +1,7 @@
 seo:
-  title: "Arnaldo Benavides - Senior web developer"
+  title: "Arnaldo Benavides - Senior Web Developer"
   description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, Soy Arnaldo Benavides - Senior web developer"
+title: "Hey, Soy Arnaldo Benavides - Senior Web Developer"
 description: "Creo experiencias digitales intuitivas donde el diseño se une a la funcionalidad. Vivo en Bogotá, pero doy vida a las ideas de mis clientes en todo el mundo a través del código y la creatividad."
 hero:
   links:
@@ -9,75 +9,83 @@ hero:
       to: https://github.com/nuxt-ui-templates/portfolio
       color: "neutral"
   images:
-    - src: /hero/random-1.avif
+    - src: /hero/Captura_de_pantalla_204.png
       alt: Random Image 1
-    - src: /hero/random-2.avif
-      alt: Random Image 2
-    - src: /hero/random-3.avif
-      alt: Random Image 3
-    - src: /hero/random-4.avif
-      alt: Random Image 4
-    - src: /hero/random-5.avif
-      alt: Random Image 5
-    - src: /hero/random-6.avif
-      alt: Random Image 6
-    - src: /hero/random-7.avif
-      alt: Random Image 7
-    - src: /hero/random-8.avif
-      alt: Random Image 8
-    - src: /hero/random-9.avif
-      alt: Random Image 9
+    - src: /hero/Captura_de_pantalla_205.png
+      alt: Random Image 1
+    - src: /hero/Captura_de_pantalla_206.png
+      alt: Random Image 1
+    - src: /hero/Captura_de_pantalla_207.png
+      alt: Random Image 1
+    - src: /hero/Captura_de_pantalla_208.png
+      alt: Random Image 1
+    - src: /hero/Captura_de_pantalla_209.png
+      alt: Random Image 1
+    - src: /hero/Captura_de_pantalla_210.png
+      alt: Random Image 1
+    - src: /hero/Captura_de_pantalla_211.png
+      alt: Random Image 1
+    - src: /hero/Captura_de_pantalla_212.png
+      alt: Random Image 1
+    - src: /hero/Captura_de_pantalla_213.png
+      alt: Random Image 1
+    - src: /hero/Captura_de_pantalla_214.png
+      alt: Random Image 1
+    - src: /hero/Captura_de_pantalla_215.png
+      alt: Random Image 1
+    - src: /hero/Captura_de_pantalla_216.png
+      alt: Random Image 1
 about:
-  title: "About Me"
+  title: "Sobre Mí"
   description: |
-    As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
-    My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+    Como desarrollador de software con 4 años de experiencia, aprovecho mi título en ingeniería de sistemas de la Universidad del Norte (Barranquilla) para crear experiencias digitales centradas en el usuario. 
+    Mi enfoque combina la estrategia creativa con la experiencia técnica, transformando conceptos en productos digitales funcionales y con un propósito definido que integran a la perfección diseño y tecnología.
 experience:
-  title: Work Experience
+  title: Experiencia Laboral
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
+    - position: "Frontend Developer"
+      date: "2024 - Actualidad"
       company:
-        name: Nuxt
-        logo: "i-simple-icons-nuxtdotjs"
-        url: "https://nuxt.com"
+        name: Infinity Tech
+        logo: "material-symbols:flyover"
+        url: "https://www.infinitytech.dev/"
         color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
+    - position: "Freelance Software Developer en"
+      date: "2023 - 2024"
       company:
-        name: Raycast
-        logo: "i-simple-icons-raycast"
-        url: "https://raycast.com"
+        name: Neoseg
+        logo: "material-symbols:business-center-outline"
+        url: "https://neoseg.com.mx/"
         color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
+    - position: "FullStack Developer en"
+      date: "2023"
       company:
-        name: Linear
-        logo: "i-simple-icons-linear"
-        url: "https://linear.app"
+        name: Universidad del Norte
+        logo: "material-symbols:book-2-outline"
+        url: "https://www.uninorte.edu.co/"
         color: "#5E6AD2"
 testimonials:
   - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
     author:
-      name: 'Sarah Chen'
-      description: 'Product Director at Bloom Finance'
+      name: "Sarah Chen"
+      description: "Product Director at Bloom Finance"
       avatar:
-        src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+        src: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80"
+        srcset: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x"
   - quote: "Working with Emma was the best decision we made for our startup. She didn't just deliver designs—she challenged our assumptions, conducted thorough user research, and created an experience that truly resonated with our audience. Her technical knowledge of front-end development meant the handoff to our engineering team was seamless."
     author:
-      name: 'Michael Rodriguez'
-      description: 'Co-founder of Wavelength Music'
+      name: "Michael Rodriguez"
+      description: "Co-founder of Wavelength Music"
       avatar:
-        src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+        src: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80"
+        srcset: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x"
   - quote: "Emma stands out in her ability to translate complex sustainability data into intuitive interfaces. Her work on EcoTrack wasn't just visually stunning—it fundamentally changed how our users interact with environmental information. She approaches each problem with both creativity and analytical rigor, which is exactly what we needed."
     author:
-      name: 'Dr. Aisha Johnson'
-      description: 'Chief Innovation Officer at GreenTech Solutions'
+      name: "Dr. Aisha Johnson"
+      description: "Chief Innovation Officer at GreenTech Solutions"
       avatar:
-        src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+        src: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80"
+        srcset: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x"
 blog:
   title: "Latest Articles"
   description: "Some of my recent thoughts"
