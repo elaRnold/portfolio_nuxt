@@ -12,29 +12,47 @@ hero:
     - src: /hero/Captura_de_pantalla_204.png
       alt: Random Image 1
     - src: /hero/Captura_de_pantalla_205.png
-      alt: Random Image 1
+      alt: Random Image 2
     - src: /hero/Captura_de_pantalla_206.png
-      alt: Random Image 1
+      alt: Random Image 3
     - src: /hero/Captura_de_pantalla_207.png
-      alt: Random Image 1
+      alt: Random Image 4
     - src: /hero/Captura_de_pantalla_208.png
-      alt: Random Image 1
+      alt: Random Image 5
     - src: /hero/Captura_de_pantalla_209.png
-      alt: Random Image 1
+      alt: Random Image 6
     - src: /hero/Captura_de_pantalla_210.png
-      alt: Random Image 1
+      alt: Random Image 7
     - src: /hero/Captura_de_pantalla_211.png
-      alt: Random Image 1
+      alt: Random Image 8
     - src: /hero/Captura_de_pantalla_212.png
-      alt: Random Image 1
+      alt: Random Image 9
     - src: /hero/Captura_de_pantalla_213.png
-      alt: Random Image 1
+      alt: Random Image 10
     - src: /hero/Captura_de_pantalla_214.png
-      alt: Random Image 1
+      alt: Random Image 11
     - src: /hero/Captura_de_pantalla_215.png
-      alt: Random Image 1
+      alt: Random Image 12
     - src: /hero/Captura_de_pantalla_216.png
-      alt: Random Image 1
+      alt: Random Image 13
+    - src: /hero/Captura_de_pantalla_259.png
+      alt: Random Image 13
+    - src: /hero/Captura_de_pantalla_260.png
+      alt: Random Image 14
+    - src: /hero/Captura_de_pantalla_261.png
+      alt: Random Image 15
+    - src: /hero/Captura_de_pantalla_262.png
+      alt: Random Image 16
+    - src: /hero/Captura_de_pantalla_263.png
+      alt: Random Image 17
+    - src: /hero/Captura_de_pantalla_271.png
+      alt: Random Image 18
+    - src: /hero/Captura_de_pantalla_272.png
+      alt: Random Image 19
+    - src: /hero/Captura_de_pantalla_273.png
+      alt: Random Image 20
+    - src: /hero/Captura_de_pantalla_274.png
+      alt: Random Image 21
 about:
   title: "Sobre Mí"
   description: |
@@ -90,39 +108,47 @@ blog:
   title: "Latest Articles"
   description: "Some of my recent thoughts"
 faq:
-  title: Frequently Asked Questions
-  description: Answers to common questions about my process and services.
+  title: Preguntas frecuentes
+  description: Respuestas a preguntas comunes sobre mis procesos y servicios.
   categories:
-    - title: Services & Process
+    - title: Servicios y procesos
       questions:
-        - label: What services do you offer?
+        - label: ¿Qué servicios ofreces?
           content: |
-            I specialize in UX/UI design and front-end development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
-        - label: What is your design process like?
+            Me especializo en desarrollo front-end, aunque también tengo experiencia en backend utilizando Nest.js, un framework de Node.js. 
+            Mi trabajo abarca la planificación, control de calidad (QA), creación de interfaces de usuario intuitivas, y el desarrollo de sitios 
+            y aplicaciones web responsivas (especialmente con React.js/Next.js y Vue.js/Nuxt.js), así como el desarrollo de aplicaciones móviles con React Native/Expo. 
+            Mi objetivo es diseñar y construir experiencias digitales fluidas y funcionales, acompañando cada proyecto desde la concepción hasta la implementación.
+        - label: ¿Cómo es tu proceso de desarrollo?
           content: |
-            My process is collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. I tailor the process based on project needs, always focusing on user-centered solutions.
-        - label: Do you work with startups?
+            Mi proceso de trabajo es colaborativo e iterativo, y suele incluir etapas como planificación e investigación, 
+            definición del patrón de diseño de software, pruebas unitarias e integración, y una estrecha colaboración con los 
+            equipos de diseño y QA durante la implementación. Adapto cada proceso a las necesidades específicas del proyecto, 
+            manteniendo siempre el enfoque en soluciones centradas en el usuario.
+        - label: ¿Trabajas con startups?
           content: |
-            Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
-    - title: Pricing & Timelines
+            ¡Absolutamente! Disfruto trabajar con startups para ayudarles a definir su visión de producto y crear interfaces de usuario amigables desde cero. Puedo adaptar mi proceso para ajustarme al entorno dinámico de las startups.
+    - title: Precios y plazos
       questions:
-        - label: How much does a project typically cost?
+        - label: ¿Cuáles son tus términos de pago?
           content: |
-            Project costs vary based on scope, complexity, features, and timeline. For comprehensive UX/UI design and front-end development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
-        - label: What are your payment terms?
+            Generalmente solicito un depósito del 40% para programar y comenzar el proyecto, y el 60% restante una vez finalizado y entregado. 
+            Acepto pagos mediante transferencia bancaria a nivel nacional (Colombia) y, para clientes internacionales, a través de Global66.
+        - label: ¿Cuánto tiempo dura un proyecto típico?
           content: |
-            I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
-        - label: How long does a typical project take?
+            Los plazos varían según el alcance y la complejidad del proyecto. 
+            Los proyectos más pequeños suelen completarse en 3 a 4 semanas, mientras que los más amplios o complejos pueden requerir entre 2 y 4 meses. 
+            Siempre proporciono una estimación detallada del tiempo una vez concluida la fase inicial de descubrimiento.
+        - label: ¿Ofreces retención o apoyo continuo?
           content: |
-            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
-        - label: Do you offer retainers or ongoing support?
-          content: |
-            Yes, for clients needing ongoing design support, feature development, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
-    - title: About Me
+            Sí, para los clientes que requieren soporte continuo de desarrollo o mantenimiento, ofrezco opciones de pago mensual personalizadas según sus necesidades. Conversemos si te interesa explorar esta modalidad.
+    - title: Acerca de mí
       questions:
-        - label: What do you enjoy most about your work?
+        - label: ¿Qué es lo que más te gusta de tu trabajo?
           content: |
-            I love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something I've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites me.
-        - label: What are your hobbies outside of work?
+            Me apasiona el desafío de resolver problemas complejos a través del diseño y la tecnología. 
+            Es increíblemente gratificante ver cómo las personas interactúan con algo que he creado y lo perciben como útil, intuitivo y accesible. 
+            Cerrar la brecha entre las necesidades del usuario y las posibilidades técnicas es lo que realmente me motiva.
+        - label: ¿Cuales son tus pasatiempos fuera del trabajo?
           content: |
-            When I'm not designing or coding, I enjoy exploring Boston's neighborhoods, trying out new coffee shops, and hiking in the nearby reservations. I'm also passionate about photography and occasionally contribute to open-source projects.
+            Cuando no estoy estudiando ni programando, me gusta viajar y descubrir nuevos lugares, especialmente restaurantes y ciudades. También soy un apasionado de los videojuegos y el cine.

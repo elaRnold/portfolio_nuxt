@@ -37,7 +37,7 @@ export default defineAppConfig({
       'aria-label': 'Arnaldo en linkedin'
     }, {
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/elaRnold/elaRnold',
+      'to': 'https://github.com/elaRnold',
       'target': '_blank',
       'aria-label': 'Arnaldo en GitHub'
     }]
