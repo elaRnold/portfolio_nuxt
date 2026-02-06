@@ -83,27 +83,27 @@ experience:
         url: "https://www.uninorte.edu.co/"
         color: "#5E6AD2"
 testimonials:
-  - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
+  - quote: "El enfoque de Arnaldo transformó por completo nuestro trabajo. Su habilidad para equilibrar la belleza estética con la simplicidad funcional es realmente excepcional. Gracias a su rediseño, no solo mejoramos la apariencia del proyecto, sino que también optimizamos los tiempos de carga y el posicionamiento SEO."
     author:
-      name: "Sarah Chen"
-      description: "Product Director at Bloom Finance"
+      name: "Angie Almanza"
+      description: "Máster en Bigdata y Ciencia de Datos"
       avatar:
-        src: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80"
-        srcset: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x"
-  - quote: "Working with Emma was the best decision we made for our startup. She didn't just deliver designs—she challenged our assumptions, conducted thorough user research, and created an experience that truly resonated with our audience. Her technical knowledge of front-end development meant the handoff to our engineering team was seamless."
+        src: "/testimonials/angie.jpeg"
+        srcset: "/testimonials/angie.jpeg 2x"
+  - quote: "Trabajar con Arnaldo fue una de las mejores decisiones que tomó la startup donde colaboramos. No solo entregó un código limpio y moderno, sino que también diseñó una experiencia que conectó genuinamente con nuestro público. Su sólido conocimiento en desarrollo front-end facilitó la integración con el equipo de ingeniería."
     author:
-      name: "Michael Rodriguez"
-      description: "Co-founder of Wavelength Music"
+      name: "Victor Medina"
+      description: "Desarrollador Backend"
       avatar:
-        src: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80"
-        srcset: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x"
-  - quote: "Emma stands out in her ability to translate complex sustainability data into intuitive interfaces. Her work on EcoTrack wasn't just visually stunning—it fundamentally changed how our users interact with environmental information. She approaches each problem with both creativity and analytical rigor, which is exactly what we needed."
+        src: "/testimonials/victor.jpeg"
+        srcset: "/testimonials/victor.jpeg 2x"
+  - quote: "Arnaldo destaca por su habilidad para transformar diseños complejos en interfaces intuitivas. Su trabajo no solo resultó visualmente impactante, sino que cambió por completo la forma en que nuestros usuarios interactúan con la información ambiental. En cada desafío, combina creatividad y rigor analítico, exactamente lo que necesitábamos."
     author:
-      name: "Dr. Aisha Johnson"
-      description: "Chief Innovation Officer at GreenTech Solutions"
+      name: "Donny Scolar"
+      description: "Desarrollador FullStack"
       avatar:
-        src: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80"
-        srcset: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x"
+        src: "/testimonials/donny.jpeg"
+        srcset: "/testimonials/donny.jpeg 2x"
 blog:
   title: "Latest Articles"
   description: "Some of my recent thoughts"

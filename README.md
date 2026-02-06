@@ -1,62 +1,95 @@
-# Nuxt Portfolio Template
+# Arnaldo Benavides — Portfolio
 
-[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
+[![Nuxt](https://img.shields.io/badge/Nuxt-4-00DC82?logo=nuxt&labelColor=020420)](https://nuxt.com)
+[![Nuxt UI](https://img.shields.io/badge/Nuxt%20UI-4-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
+[![Nuxt Content](https://img.shields.io/badge/Nuxt%20Content-3-00DC82?logo=nuxt&labelColor=020420)](https://content.nuxt.com)
 
-Use this template to create your own portfolio with [Nuxt UI](https://ui.nuxt.com).
+Portfolio personal construido con Nuxt 4 y Nuxt UI. Presenta mi experiencia como Senior Web Developer desde Bogotá, Colombia.
 
-- [Live demo](https://portfolio-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/getting-started/installation)
+## Tech Stack
 
-<a href="https://portfolio-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/portfolio-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png">
-    <img alt="Nuxt Portfolio Template" src="https://ui.nuxt.com/assets/templates/nuxt/portfolio-dark.png">
-  </picture>
-</a>
+- **Framework:** Nuxt 4
+- **UI:** Nuxt UI 4 + Tailwind CSS
+- **Contenido:** Nuxt Content 3 (YAML + Markdown)
+- **Animaciones:** Motion-V
+- **Utilidades:** VueUse
+- **SEO:** nuxt-og-image
+- **Imágenes:** @nuxt/image
+- **Linting:** ESLint con @nuxt/eslint
 
-## Quick Start
+## Funcionalidades
 
-```bash [Terminal]
-npm create nuxt@latest -- -t github:nuxt-ui-templates/portfolio
+- Hero con galería de imágenes tipo polaroid
+- Sección "Sobre Mí" y experiencia laboral
+- Carrusel de testimonios con autoplay
+- Preguntas frecuentes (FAQ) por categorías
+- Blog con Nuxt Content (Markdown)
+- Página de proyectos
+- Modo claro/oscuro
+- Generación automática de imágenes OG
+- Sitio estático pre-renderizado (SSG)
+- Diseño responsivo
+
+## Páginas
+
+| Ruta | Descripción |
+|------|-------------|
+| `/` | Landing con hero, about, experiencia, testimonios y FAQ |
+| `/about` | Información personal detallada |
+| `/projects` | Portafolio de proyectos |
+| `/speaking` | Charlas y presentaciones |
+| `/blog` | Listado de artículos |
+| `/blog/:slug` | Artículo individual |
+
+## Estructura del proyecto
+
+```
+app/
+├── components/
+│   ├── landing/          # Hero, About, WorkExperience, Testimonials, FAQ
+│   ├── AppHeader.vue
+│   ├── AppFooter.vue
+│   ├── ColorModeButton.vue
+│   └── PolaroidItem.vue
+├── pages/                # Rutas de la aplicación
+└── assets/css/           # Estilos globales
+content/
+├── index.yml             # Contenido de la landing
+└── blog/                 # Artículos en Markdown
+public/
+├── hero/                 # Imágenes del hero
+└── testimonials/         # Fotos de testimonios
 ```
 
-## Deploy your own
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=portfolio&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fportfolio&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fportfolio-dark.png&demo-url=https%3A%2F%2Fportfolio-template.nuxt.dev%2F&demo-title=Nuxt%20Portfolio%20Template&demo-description=A%20sleek%20portfolio%20template%20to%20showcase%20your%20work%2C%20skills%20and%20blog%20powered%20by%20Nuxt%20Content.)
-
 ## Setup
-
-Make sure to install the dependencies:
 
 ```bash
 pnpm install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+## Desarrollo
 
 ```bash
 pnpm dev
 ```
 
-## Production
+Inicia el servidor en `http://localhost:3000`.
 
-Build the application for production:
+## Producción
 
 ```bash
 pnpm build
 ```
 
-Locally preview production build:
+Preview local del build:
 
 ```bash
 pnpm preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Linting
 
-## Renovate integration
-
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
+```bash
+pnpm lint        # Verificar
+pnpm lint:fix    # Corregir automáticamente
+```

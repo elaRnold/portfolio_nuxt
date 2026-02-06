@@ -24,12 +24,12 @@ defineProps<{
           :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
           :transition="{ delay: 0.4 + 0.2 * index }"
           :in-view-options="{ once: true }"
-          class="text-muted flex items-center text-nowrap gap-2"
+          class="text-muted flex flex-col items-start sm:flex-row sm:items-center sm:text-nowrap gap-0.5 sm:gap-2"
         >
           <p class="text-sm">
             {{ experience.date }}
           </p>
-          <USeparator />
+          <USeparator class="hidden sm:block" />
           <ULink
             class="flex items-center gap-1"
             :to="experience.company.url"
