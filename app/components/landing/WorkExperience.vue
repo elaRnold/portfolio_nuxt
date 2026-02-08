@@ -31,7 +31,7 @@ defineProps<{
           </p>
           <USeparator class="hidden sm:block" />
           <ULink
-            class="flex items-center flex-wrap gap-1"
+            class="flex items-center flex-wrap md:flex-nowrap gap-1"
             :to="experience.company.url"
             target="_blank"
           >
