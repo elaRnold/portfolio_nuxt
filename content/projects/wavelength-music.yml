@@ -1,6 +1,8 @@
-title: Wavelength Music Streaming Service
-description: Designed and developed the user interface for an indie music streaming service, focusing on discovery features and creating a unique, engaging listening experience using custom audio visualizations.
-image: https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80 # Example image related to music/audio
-url: "#"
+title: Barber Shop
+description: BarberShop es un sistema de gestión para barberías que facilita la programación de citas y la administración de cuentas de usuario. 
+  La aplicación adopta una arquitectura web moderna, con un frontend desacoplado y un backend desarrollado en PHP, 
+  e incorpora flujos de autenticación mediante correo electrónico para la confirmación de cuentas y la recuperación de contraseñas.
+image: "/projects/barberShop.png"
+url: "https://github.com/elaRnold/APP_Barber"
 tags: ["UI Design", "Front-End Dev", "Animation"]
-date: "2023"
+date: "2026"

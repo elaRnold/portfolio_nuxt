@@ -31,7 +31,7 @@ useSeoMeta({
       :description="page.description"
       :links="page.links"
       :ui="{
-        title: '!mx-0 text-left',
+        title: '!mx-0 text-left max-w-[70%]',
         description: '!mx-0 text-left',
         links: 'justify-start'
       }"
@@ -41,11 +41,6 @@ useSeoMeta({
           v-if="page.links"
           class="flex items-center gap-2"
         >
-          <UButton
-            :label="page.links[0]?.label"
-            :to="global.meetingLink"
-            v-bind="page.links[0]"
-          />
           <UButton
             :to="`mailto:${global.email}`"
             v-bind="page.links[1]"
@@ -86,9 +81,10 @@ useSeoMeta({
           <template #footer>
             <ULink
               :to="project.url"
+              target="_blank"
               class="text-sm text-primary flex items-center"
             >
-              View Project
+              Ver proyecto
               <UIcon
                 name="i-lucide-arrow-right"
                 class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"

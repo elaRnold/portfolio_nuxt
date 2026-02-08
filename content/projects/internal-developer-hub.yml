@@ -1,6 +1,9 @@
-title: Internal Developer Hub (Nuxt Team)
-description: Designed and built key components for an internal documentation and tooling hub for Nuxt developers, focusing on improving developer experience and streamlining access to resources.
-image: https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80 # Example image related to code/development
-url: "#"
+title: Products App
+description: Aplicación móvil de catálogo de productos desarrollada con React Native y Expo, que integra autenticación JWT para un inicio de sesión seguro. 
+  Permite consultar productos desde una API pública (FakeStore API) y crear productos locales, almacenados directamente en el dispositivo. 
+  Ofrece funcionalidades como captura de imágenes desde la cámara o galería, validación de formularios con Formik y Yup, y persistencia de datos mediante AsyncStorage y Zustand. 
+  Además, incluye modo claro y oscuro, asegurando una experiencia fluida, accesible y personalizada para cada usuario.
+image: "/projects/productsApp.png"
+url: "https://github.com/elaRnold/products-app"
 tags: ["Developer Tools", "UX Design", "Nuxt", "Design System", "Internal Tools"]
-date: "2024"
+date: "2026"

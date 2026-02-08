@@ -1,6 +1,8 @@
-title: Bloom Finance App Redesign
-description: Led the complete UX/UI overhaul and front-end implementation for a personal finance platform, focusing on data visualization clarity and improving user onboarding flow. Resulted in a 32% increase in user retention.
-image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80 # Example image of dashboards/finance app
-url: "#"
+title: Plataforma E-commerce
+description: Plataforma de e-commerce moderna desarrollada con Nuxt 4, Vue 3 y Nuxt UI, que incluye un completo panel administrativo y un sistema de reseñas y valoraciones. 
+  Cuenta con autenticación segura mediante bcrypt, gestión integral de productos (CRUD), e integración con Cloudinary para el manejo eficiente de imágenes. 
+  Su interfaz moderna (modo oscuro y claro según las preferencias del usuario) y diseño responsive, garantiza una experiencia fluida en cualquier dispositivo, complementada con un dashboard con métricas y análisis en tiempo real.
+image: "/projects/nuxtApp.png"
+url: "https://github.com/elaRnold/nuxtapp"
 tags: ["UX Design", "UI Design"]
-date: "2024"
+date: "2027"
