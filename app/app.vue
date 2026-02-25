@@ -17,11 +17,16 @@ useHead({
   }
 })
 
+const siteConfig = useSiteConfig()
+const route = useRoute()
+
 useSeoMeta({
   titleTemplate: '%s - Nuxt Portfolio Template',
   ogImage: '/preview/image.png',
   twitterImage: '/preview/image.png',
-  twitterCard: 'summary_large_image'
+  twitterCard: 'summary_large_image',
+  ogType: 'website',
+  ogUrl: `${siteConfig.url}${route.path}`
 })
 
 const [{ data: navigation }, { data: files }] = await Promise.all([

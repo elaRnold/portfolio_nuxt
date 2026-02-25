@@ -4,6 +4,7 @@ import { mapContentNavigation } from '@nuxt/ui/utils/content'
 import { findPageBreadcrumb } from '@nuxt/content/utils'
 
 const route = useRoute()
+const siteConfig = useSiteConfig()
 
 const { data: page } = await useAsyncData(route.path, () =>
   queryCollection('blog').path(route.path).first()
@@ -37,7 +38,9 @@ useSeoMeta({
   title,
   description,
   ogDescription: description,
-  ogTitle: title
+  ogTitle: title,
+  ogType: 'article',
+  ogUrl: `${siteConfig.url}${route.path}`
 })
 
 const articleLink = computed(() => `${window?.location}`)
@@ -77,7 +80,7 @@ const formatDate = (dateString: string) => {
           <NuxtImg
             :src="page.image"
             :alt="page.title"
-            class="rounded-lg w-full h-[300px] object-cover object-center"
+            class="rounded-lg w-full h-75 object-cover object-center"
           />
           <h1 class="text-4xl text-center font-medium max-w-3xl mx-auto mt-4">
             {{ page.title }}

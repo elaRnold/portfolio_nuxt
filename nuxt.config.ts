@@ -10,6 +10,11 @@ export default defineNuxtConfig({
     'motion-v/nuxt'
   ],
 
+  site: {
+    url: 'https://portfolio-nuxt-rose-five.vercel.app',
+    name: 'Portfolio'
+  },
+
   devtools: {
     enabled: true
   },
