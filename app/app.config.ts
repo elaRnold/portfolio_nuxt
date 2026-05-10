@@ -1,5 +1,6 @@
 export default defineAppConfig({
   global: {
+    experienceStartYear: 2022,
     picture: {
       dark: '/hero/foto_pro.png',
       light: '/hero/foto_pro.png',

@@ -56,7 +56,7 @@ hero:
 about:
   title: "Sobre Mí"
   description: |
-    Como desarrollador de software con 4 años de experiencia, aprovecho mi título en ingeniería de sistemas de la Universidad del Norte (Barranquilla) para crear experiencias digitales centradas en el usuario. 
+    Como desarrollador de software con {years} años de experiencia, aprovecho mi título en ingeniería de sistemas de la Universidad del Norte (Barranquilla) para crear experiencias digitales centradas en el usuario. 
     Mi enfoque combina la estrategia creativa con la experiencia técnica, transformando conceptos en productos digitales funcionales y con un propósito definido que integran a la perfección diseño y tecnología.
 experience:
   title: Experiencia Laboral

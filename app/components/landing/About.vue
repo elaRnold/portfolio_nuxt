@@ -1,15 +1,25 @@
 <script setup lang="ts">
 import type { IndexCollectionItem } from '@nuxt/content'
+import { getExperienceYears } from '~/utils/experience'
 
-defineProps<{
+const props = defineProps<{
   page: IndexCollectionItem
 }>()
+
+const { global } = useAppConfig()
+
+const description = computed(() =>
+  props.page.about.description.replace(
+    '{years}',
+    String(getExperienceYears(global.experienceStartYear))
+  )
+)
 </script>
 
 <template>
   <UPageSection
     :title="page.about.title"
-    :description="page.about.description"
+    :description="description"
     :ui="{
       container: '!p-0',
       title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
