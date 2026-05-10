@@ -33,7 +33,7 @@ export default defineAppConfig({
       'aria-label': 'Arnaldo en gmail'
     }, {
       'icon': 'entypo-social:linkedin-with-circle',
-      'to': 'https://www.linkedin.com/in/arnaldobr/',
+      'to': 'https://www.linkedin.com/in/arnaldobr',
       'target': '_blank',
       'aria-label': 'Arnaldo en linkedin'
     }, {

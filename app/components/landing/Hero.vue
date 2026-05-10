@@ -110,7 +110,6 @@ defineProps<{
             :color="global.available ? 'success' : 'error'"
             variant="ghost"
             class="gap-2"
-            :to="global.available ? global.meetingLink : ''"
             :label="global.available ? 'Disponible para nuevos proyectos' : 'No disponible por el momento'"
           >
             <template #leading>
