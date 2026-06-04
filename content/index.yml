@@ -53,6 +53,10 @@ hero:
       alt: Random Image 20
     - src: /hero/Captura_de_pantalla_274.png
       alt: Random Image 21
+    - src: /hero/image.png
+      alt: Random Image 21
+    - src: /hero/image2.png
+      alt: Random Image 21
 about:
   title: "Sobre Mí"
   description: |
@@ -115,10 +119,10 @@ faq:
       questions:
         - label: ¿Qué servicios ofreces?
           content: |
-            Me especializo en desarrollo front-end, aunque también tengo experiencia en backend utilizando Nest.js, un framework de Node.js. 
-            Mi trabajo abarca la planificación, control de calidad (QA), creación de interfaces de usuario intuitivas, y el desarrollo de sitios 
-            y aplicaciones web responsivas (especialmente con React.js/Next.js y Vue.js/Nuxt.js), así como el desarrollo de aplicaciones móviles con React Native/Expo. 
-            Mi objetivo es diseñar y construir experiencias digitales fluidas y funcionales, acompañando cada proyecto desde la concepción hasta la implementación.
+            Soy desarrollador web full-stack: trabajo tanto en la interfaz como en la lógica del servidor, abarcando la planificación, el control de calidad (QA), el diseño de APIs, 
+            el modelado de bases de datos y la creación de interfaces de usuario intuitivas. Desarrollo sitios y aplicaciones web responsivas con React.js/Next.js y Vue.js/Nuxt.js 
+            en el frontend, y Nest.js (Node) y Django (Python) en el backend, además de aplicaciones móviles con React Native/Expo. Mi objetivo es diseñar y construir experiencias 
+            digitales fluidas y funcionales, acompañando cada proyecto de extremo a extremo, desde la concepción hasta la implementación.
         - label: ¿Cómo es tu proceso de desarrollo?
           content: |
             Mi proceso de trabajo es colaborativo e iterativo, y suele incluir etapas como planificación e investigación, 

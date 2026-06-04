@@ -1,0 +1,12 @@
+title: Kursa
+description: >
+  Plataforma de cursos en línea desarrollada como MVP con Django, aplicando el patrón
+  MVT (Model-View-Template). Incluye autenticación y permisos de usuarios, panel de
+  administración con Django Admin, relaciones entre modelos, Django ORM, filtros,
+  búsquedas y paginación, subida de archivos, Class Based Views y Function Based Views,
+  middlewares, signals y context processors. El proyecto refleja estándares actuales
+  del desarrollo web profesional con Python.
+image: "/projects/kursa.png"
+url: "https://github.com/elaRnold/Kursa"
+tags: ["Django", "Python", "Back-End Dev", "Full Stack"]
+date: "2026"
