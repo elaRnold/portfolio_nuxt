@@ -6,7 +6,7 @@ description: >
   búsquedas y paginación, subida de archivos, Class Based Views y Function Based Views,
   middlewares, signals y context processors. El proyecto refleja estándares actuales
   del desarrollo web profesional con Python.
-image: "/projects/kursa.png"
+image: "/projects/Kursa.png"
 url: "https://github.com/elaRnold/Kursa"
 tags: ["Django", "Python", "Back-End Dev", "Full Stack"]
 date: "2026"
