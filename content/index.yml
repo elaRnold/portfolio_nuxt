@@ -1,8 +1,8 @@
 seo:
-  title: "Arnaldo Benavides - Senior Web Developer"
-  description: "¡Bienvenidos a mi portafolio! Soy Arnaldo Benavides, desarrollador web con base en Bogotá. Me apasiona crear experiencias digitales atractivas, funcionales y centradas en las necesidades del usuario."
-title: "Hey, Soy Arnaldo Benavides - Senior Web Developer"
-description: "Creo experiencias digitales intuitivas donde el diseño se une a la funcionalidad. Vivo en Bogotá, pero doy vida a las ideas de mis clientes en todo el mundo a través del código y la creatividad."
+  title: "Arnaldo Benavides - Fullstack Web & Mobile Developer"
+  description: "¡Bienvenidos a mi portafolio! Soy Arnaldo Benavides, desarrollador fullstack web y mobile con base en Bogotá. Construyo aplicaciones web y móviles (con Flutter y React Native) atractivas, funcionales y centradas en las necesidades del usuario."
+title: "Hey, Soy Arnaldo Benavides - Fullstack Web & Mobile Developer"
+description: "Creo experiencias digitales intuitivas donde el diseño se une a la funcionalidad, tanto en web como en aplicaciones móviles con Flutter y React Native. Vivo en Bogotá, pero doy vida a las ideas de mis clientes en todo el mundo a través del código y la creatividad."
 hero:
   links:
     - label: "Use this template"
@@ -60,8 +60,8 @@ hero:
 about:
   title: "Sobre Mí"
   description: |
-    Como desarrollador de software con {years} años de experiencia, aprovecho mi título en ingeniería de sistemas de la Universidad del Norte (Barranquilla) para crear experiencias digitales centradas en el usuario. 
-    Mi enfoque combina la estrategia creativa con la experiencia técnica, transformando conceptos en productos digitales funcionales y con un propósito definido que integran a la perfección diseño y tecnología.
+    Como desarrollador fullstack web y mobile con {years} años de experiencia, aprovecho mi título en ingeniería de sistemas de la Universidad del Norte (Barranquilla) para crear experiencias digitales centradas en el usuario. 
+    Mi enfoque combina la estrategia creativa con la experiencia técnica, transformando conceptos en productos web y aplicaciones móviles funcionales; con un propósito definido que integran a la perfección diseño y tecnología.
 experience:
   title: Experiencia Laboral
   items:
@@ -119,9 +119,9 @@ faq:
       questions:
         - label: ¿Qué servicios ofreces?
           content: |
-            Soy desarrollador web full-stack: trabajo tanto en la interfaz como en la lógica del servidor, abarcando la planificación, el control de calidad (QA), el diseño de APIs, 
+            Soy desarrollador fullstack web y mobile: trabajo tanto en la interfaz como en la lógica del servidor, abarcando la planificación, el control de calidad (QA), el diseño de APIs, 
             el modelado de bases de datos y la creación de interfaces de usuario intuitivas. Desarrollo sitios y aplicaciones web responsivas con React.js/Next.js y Vue.js/Nuxt.js 
-            en el frontend, y Nest.js (Node) y Django (Python) en el backend, además de aplicaciones móviles con React Native/Expo. Mi objetivo es diseñar y construir experiencias 
+            en el frontend, y Nest.js (Node) y Django (Python) en el backend, además de aplicaciones móviles multiplataforma con Flutter y React Native/Expo. Mi objetivo es diseñar y construir experiencias 
             digitales fluidas y funcionales, acompañando cada proyecto de extremo a extremo, desde la concepción hasta la implementación.
         - label: ¿Cómo es tu proceso de desarrollo?
           content: |
